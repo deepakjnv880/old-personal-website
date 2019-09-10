@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+	/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+  div.carousel-inner2 img {
+      width: 30%;
+      height: 30%;
+  }
+  div.intro h1
+  {
+  	font-size: 35px;
+  	color: mistyrose;
+  }
+  div.intro h2
+  {
+  	font-size: 20px;
+  	color: white;
+  }
+ 
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  div.carousel-inner2 img {
+      width: 80%;
+      height: 80%;
+  }
+  div.intro h1
+  {
+  	font-size: 25px;
+  	color: mistyrose;
+  }
+  div.intro h2
+  {
+  	font-size: 15px;
+  	color: white;
+  }
+ 
+}
+		body{
+  background-image: url("background3.jpg");
+}
+/* Make the image fully responsive */
+  .carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+
+  img{
+    max-height: 100%;
+    max-width: 100%;
+  }
+	</style>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="mobile_website.css">
+
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+
+    <!-- drop down menu purpose-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  
+	<title>
+		
+	</title>
+</head>
+<body>
+<div class="container-fluid">
+   	<div class="row ">
+   		
+   		<!--div class="col-xl-3 col-lg-3 col-md-3 col-sm-1 col-xs-1 "></div-->
+   		<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 "></div>
+   		<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 "></div>
+   		<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+   			
+   			<button type="button" class="btn btn-sm active"><font >Home</font></button>
+            <button type="button" class="btn btn-sm active "><font>About Us</font></button>
+            <button type="button" class="btn btn-sm active "><font>Contacts</font></button>
+            <!--button type="button" class="btn btn-sm active "><font>Help</font></button-->
+            <button type="button" class="btn btn-sm active "><font>Sitemap</font></button>
+             <br>
+             
+             <!--button type="button" class="btn btn-block">Full-Width Button</button>
+             <br-->
+             <br>
+   		</div>
+    </div>
+   	
+                                      
+  <div class="dropdown row">
+    <button class="btn btn-sm dropdown-toggle" type="button" id="menu1" data-toggle="dropdown"><i class="fas fa-bars"></i>
+    <span class="caret"></span></button>
+
+    <ol class="dropdown-menu btn-dark" role="menu" aria-labelledby="menu1">
+      <a role="menuitem" tabindex="-1" href="project.html" target="blank"> <li role="presentation">PROJECTS</li></a>
+           <a role="menuitem" tabindex="-1" href="present_status.html" target="blank"> <li role="presentation">STATUS</li></a>
+           <a role="menuitem" tabindex="-1" href="courses.html" target="blank"><li role="presentation">COURSES</li></a>
+           <a role="menuitem" tabindex="-1" href="achievement.html" target="blank"><li role="presentation">ACHIEVEMENT</li></a>
+           <a role="menuitem" tabindex="-1" href="futuregoal.html" target="blank"><li role="presentation">FUTURE GOAL</li></a>
+           <a role="menuitem" tabindex="-1" href="visited_state.html" target="blank"><li role="presentation">VISITED STATE</li></a>
+           <a role="menuitem" tabindex="-1" href="language.html" target="blank"><li role="presentation">LANGUAGE</li></a>    
+       
+    </ol>
+  </div>
+  <br>
+<div class="row" >
+    <!--slide shw-->
+    <div id="demo" class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12  carousel slide " data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner2">
+    <div class="carousel-item active">
+      <img src="me3.jpg" alt="Los Angeles" height= "966" width= "1288" class="rounded-circle center">
+    </div>
+    <div class="carousel-item">
+      <img src="me5.jpg" alt="Chicago" height= "966" width= "1288" class="rounded-circle center">
+    </div>
+    <div class="carousel-item">
+      <img src="me4.jpg" alt="New York" height= "966" width= "1288" class="rounded-circle center">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+</div>
+<br>
+
+<div class="row" >
+   		 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 center intro">
+        	<center>    
+             <h1 ><i> DEEPAK KUMAR </i></h1>
+               <h2  >- SPORTS ENTHUSIAST </h2>
+               <h2 >- WEB DEVELOPER </h2>
+               <h2 >- MAD PROGRAMMER </h2>
+            </center>
+  
+          
+            <br clear="all">
+             
+        </div>
+</div>
+	<div class="row">
+	<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 center">
+   			<center>
+             <h1><i><font size="5"; color="black"> Contact Us :</font></i></h1>
+             <a class="socialicon" href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+             <a class="socialicon" href="https://www.facebook.com/deepak.jnv.3" target="blank">
+             <i class="fab fa-facebook-f"></i></a>
+             <a class="socialicon" href="https://www.instagram.com/deepak.jnv/" target="_blank" ><i class="fab fa-instagram"></i></a>
+             
+             <a class="socialicon" href="https://github.com/deepakjnv880"><i class="fab fa-github"></i> </a>
+              <!--span class="popup">+919708214184</span-->
+              </center>
+              <center>
+      <h1><font size="3"; color="black"> Copyright @ All Rights reserved.</font></h1>
+      </center>
+   </div>
+   </div>
+
+
+</div><!--continer end-->
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="ad3.png" alt="Los Angeles" width="1100" height="500" >
+    </div>
+    <div class="carousel-item">
+      <img src="ad2.png" alt="Chicago" width="1100" height="500" >
+    </div>
+    <div class="carousel-item">
+      <img src="ad1.jpg" alt="New York" width="1100" height="500" >
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+</body>
+</html>

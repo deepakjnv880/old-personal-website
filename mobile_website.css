@@ -1,0 +1,72 @@
+ul li{
+float:bottom;
+float: left;
+margin-bottom:10px;
+width: auto;
+background-color: orange;
+font-size: 15px;
+line-height:20px;
+}
+
+ol li{
+  
+  
+  font-weight: bold;
+  font-style: oblique;
+ 
+  border-color: black;
+  padding-left: 22px;
+
+}
+/*div {
+width: 1645px;
+height: 100px;
+}*/
+#div0
+{
+  float:top;
+  width: 1345px;
+  height: 50px;
+  
+}
+
+#div1{
+width: 1345px;
+height: 420px;
+
+float:top;
+}
+#div11{
+width: 280px;
+height: 3200px;
+float: top;
+float:left;
+}
+#div12{
+width: 1065px;
+height: 1000px;
+float: top;
+float:right;
+}
+#div2
+{
+  float:top;
+  width: 1345px;
+  height: 100px;
+
+  
+  
+}
+.socialicon{
+  color: blue;
+  font-size: 50px;
+  padding-right: 5px;
+  padding-left: 5px;
+
+}
+.center{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
